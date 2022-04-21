@@ -21,7 +21,6 @@ posh_spice = Actor.create(name: 'Victoria Addams')
 puts 'Creating roles...'
 Role.create(
   actor_id: 3,
-  actor: baby_spice,
   movie_id: 2,
   movie: spice_world,
   salary: 11,
@@ -29,7 +28,6 @@ Role.create(
 )
 Role.create(
   actor_id: 4,
-  actor: ginger_spice,
   movie_id: 2,
   movie: spice_world,
   salary: 111,
@@ -37,7 +35,6 @@ Role.create(
 )
 Role.create(
   actor_id: 2,
-  actor: tina_fey,
   movie_id: 1,
   movie: mean_girls,
   salary: 1030,
@@ -45,7 +42,6 @@ Role.create(
 )
 Role.create(
   actor_id: 2,
-  actor: tina_fey,
   movie_id: 2,
   movie: spice_world,
   salary: 530,
@@ -53,7 +49,6 @@ Role.create(
 )
 Role.create(
   actor_id: 1,
-  actor: lindsay_lohan,
   movie_id: 1,
   movie: mean_girls,
   salary: 3030,
@@ -61,7 +56,6 @@ Role.create(
 )
 Role.create(
   actor_id: 1,
-  actor: lindsay_lohan,
   movie_id: 2,
   movie: spice_world,
   salary: 777,
